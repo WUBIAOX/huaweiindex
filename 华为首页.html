@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>华为首页</title>
+<style type="text/css">
+body,h1,h2,h3,input,a,input,ul,li,p,img,dl,dt,dd{margin:0; padding:0; list-style:none; font-size:12px; font-family:宋体; color:#666666; border:none; }
+.top{background:url(img/logo_bg.jpg) repeat-x; width:100%; height:60px; border-bottom:#D7D4CF solid 1px;}
+.top .top_center{width:981px; height:60px; margin:0 auto; }
+.top .top_center h1{font-family:微软雅黑; color:#000; font-size:16px; height:51px; width: 498px;  background:url(img/logo.jpg) no-repeat center left; line-height:51px; padding-left:53px; padding-top:10px; float:left; }
+.top .top_center .right{float:right; height:60px; float:left; width:260px; line-height:60px; }
+.top .top_center .right h2{float:left;}
+.top .top_center h2 a{ color:#666; text-decoration:none; font-weight:normal;}
+.top .top_center h2 a:hover{ text-decoration:underline; color:#00F;}
+.top .top_center .search{float:left;  height:60px; width:170px;  position:relative; }
+.top .top_center .search .search_l{ background:url(img/search_l.jpg) no-repeat center; width:7px; display:inline-block; height:60px; float:left;  }
+.top .top_center .search .search_c{ background:url(img/search_c.jpg) repeat-x   center; width:132px; display:inline-block;  height:60px; float:left; }
+.top .top_center .search .search_r{ background:url(img/search_r.jpg) no-repeat center; width:31px; display:inline-block;  height:60px; cursor:pointer; float:left;  }
+.top .top_center .search input{width:132px; height:17px; position:absolute; top:22px; right:31px; }
+.navigation{ width:100%; height:47px; background:url(img/Navigation_bg.jpg) repeat-x;}
+.navigation .content { width:981px; height:47px; margin:0 auto;}
+.navigation .content  ul{background:#666; padding-left:26px;}
+.navigation .content ul li{float:left; font-size:13px; font-weight:bold; height:47px; line-height:47px; padding-right:58px; }
+.navigation .content li a{text-decoration:none; }
+.navigation .content li a:hover{ text-decoration:underline; color:#F00;}
+.banner_bg{width:100%; height:396px; background:#000;}
+.banner_bg .banner{background:url(img/banner.fw.png) no-repeat; width:1070px; height:396px; margin:0 auto;}
+.news{width:981px; height:36px; margin:0 auto; }
+.news .news_l{width:811px; height:36px;  float:left; line-height:36px; }
+.news .news_l span{ color:#B80000; font-weight:bold; float:left; }
+.news .news_l p{ float:left; padding-left:5px; }
+.news .news_r{width:170px; height:36px; float:left;}
+.news .news_r span{font-weight:bold; line-height:36px; width:72px; float:left;}
+.news .news_r .icon{width:98px; height:24px; float:left; padding-top:8px;}
+.content_bg{width:100%; height:314px; background:url(img/content_bg.jpg) repeat-x ;}
+.content_bg .content{width:981px; height:302px; margin:0 auto; }
+.content_bg .content dl{background:#fff; width:316px; height:137px; float:left; margin-bottom:12px; margin-top:12px;}
+.content_bg .content .center{margin:0 16px 0 16px;  margin-top:12px;}
+.content_bg .content .centerlf{margin-top:0px;}
+.content_bg .content dl dt{float:left; color:#3485AB; font-size:15px; font-weight:bold; background:#fff; width:182px; padding:15px 12px;}
+.content_bg .content dl dt .h11{color:#3385AB; font-size:15px;}
+.content_bg .content dl dt .h12{color:#EB8500; font-size:15px;}
+.content_bg .content dl dt .h13{color:#669800; font-size:15px;}
+.content_bg .content dl dt .h14{color:#669800; font-size:15px;}
+.content_bg .content dl dt .h15{color:#3385AB; font-size:15px;}
+.content_bg .content dl dt .h16{color:#EB8500; font-size:15px;}
+.content_bg .content dl dt p{font-weight:normal; padding-top:12px; line-height:20px;}
+.content_bg .content dl dt dd{float:left;}
+.bottom {width:100%; height:310px;  }
+.bottom .bottom_bg1 {width:100%; height:110px; background:url(img/bottom_bg.jpg) repeat-x; }
+.bottom .bottom_bg2 {width:100% ; height:200px; background:#898989; }
+.btm {width:981px; height:265px;  margin:-278px auto;  }
+.btm dl dt .title{color:#FFF;}
+.btm dl  .content{ padding-top:20px;}
+.btm dl { float:left; margin-left:140px;}
+.btm .btm_dl{margin-left:0px;}
+.btm dl .content .ppp{color:#fff; line-height:25px; height:25px; text-decoration:none;  }
+.btm dl .content .ppp:hover{color:#fff; text-decoration:underline; color:#F00  }
+.btm .btm_topbox{width:981px; height:195px; }
+.btm .btm_btmcontent,.btm .btm_btmcontent a,.btm .btm_btmcontent p{ color:#FFF; text-decoration:none; }
+.btm .btm_btmcontent p{float:left; margin-right:75px;}
+.btm .btm_btmcontent a:hover{color:#F00; text-decoration:underline;}
+.btm .btm_btmcontent  strong{ float:left;}
+.btm .chengxin{  padding-top:30px;}
+
+</style>
+
+</head>
+<body>
+<div class="top">
+	<div class="top_center">
+    	<h1>华为，不仅仅是世界500强</h1>
+        <div class="right">
+        	<h2><a href="#">Worldwide</a> <a href="#">| 登录</a> | <a href="#">个性化服务</a> | <a href="#">心声社区</a></h2>
+       </div>
+        <div class="search">
+    		<span class="search_l"></span><span class="search_c"></span><span type="button"  class="search_r"></span>
+            <input type="text" />
+        </div>
+        
+  </div>
+</div>
+<div class="navigation">
+	<div class="content">
+    		<ul>
+    			<li><a href="#">行业洞察</a></li>
+        		<li><a href="#">方案与产品</a></li>
+        		<li><a href="#">技术支持</a></li>
+        		<li><a href="#">关于华为</a></li>
+        		<li><a href="#">加入华为</a></li>
+        		<li><a href="#">华为商城</a></li>
+   			</ul>
+    </div>
+</div>
+<div class="banner_bg">
+	<a href="#"><div class="banner">
+    </div>
+    </a>
+</div>
+<div class="news">
+  <div class="news_l">
+    	<a href="#"><span>新闻：</span><p>华为发布业界首款传送网SDN控制器技术样机，引领传送网步入可编程新时代</p></a>
+    </div>
+    <div class="news_r">
+    	<span>关注我们</span>
+        <div class="icon">
+        	<a><img src="img/icon1.jpg"  class="pic"/></a>
+        	<a><img src="img/icon2.jpg"  class="pic" /></a>
+        	<a><img src="img/icon3.jpg"  class="pic"/></a>
+        	<a><img src="img/icon4.jpg"  /></a>
+        </div>
+   </div>
+	
+</div>
+<div class="content_bg">
+	<div class="content">
+    <a href="#">
+    	<dl>
+        	<dt>
+            	<h1 class="h11">谈华为的管道战略</h1>
+                <p>华为执行副总裁徐直军：华为致力于通过提升管道容量、增强管道使能、优化管道管理，使管道更宽、管道覆盖更广、客户体验更好。</p>
+            	<dd><img src="img/pic1.jpg" width="110" height="137" /> </dd>
+            </dt>
+        </dl>
+    </a>
+     <a href="#">
+        <dl class="center">
+        	<dt>
+            	<h1 class="h12">中国移动点亮TD-LTE市场</h1>
+                <p>从世博会TD-LTE业务演示，到杭州TD-LTE试验网发布，到全球首次LTE TDD/FDD漫游互通，中国移动迈出了TD-LTE的坚定步伐。</p>
+            	<dd><img src="img/pic3.jpg" width="110" height="137" /> </dd>
+            </dt>
+     
+        </dl>
+        </a>
+      <a href="#">   
+         <dl>
+        	<dt>
+            	<h1 class="h13">《营赢》第14期</h1>
+                <p>本期封面：Bharti Airtel的LTE网络已正式商用，对印度而言，LTE是否行之过早？其网络业务总监Jagbir Singh并不这么认为。</p>
+            	<dd><img src="img/pic5.jpg" width="110" height="137" /> </dd>
+            </dt>
+        </dl>
+       </a>
+        <a href="#">
+         <dl class="centerlf">
+        	<dt>
+            	<h1 class="h14">四核芯3D见证不凡时刻</h1>
+                <p>极速四核、全高清分辨率、杜比5.1环绕音效……华为“中国芯”的强悍性能令人叹为观止。</p>
+            	<dd><img src="img/pic2.jpg" width="110" height="137" /> </dd>
+            </dt>
+        </dl>
+        </a>
+         <a href="#">
+        <dl class="center centerlf">
+        	<dt>
+            	<h1  class="h15">互联网视频，竞还是合？</h1>
+                <p>优酷土豆无线运营部高级总监费溢群分享了在互联网视频领域，其与运营商、华为间的三方合作模式。</p>
+            	<dd><img src="img/pic4.jpg" width="110" height="137" /> </dd>
+            </dt>
+        </dl>
+        </a>
+         <a href="#">
+        <dl class="centerlf">
+        	<dt>
+            	<h1  class="h16">统一存储，大道智简</h1>
+                <p>OceanStor T系列统一存储产品，搭载Smart系列软件，实现完美统一管理，按需自如存取。</p>
+            	<dd><img src="img/pic6.jpg" width="110" height="137" /> </dd>
+            </dt>
+        </dl>
+        </a>
+    </div>
+</div>
+<div class="bottom">
+	<div  class="bottom_bg1">
+	</div>
+	<div  class="bottom_bg2">
+	</div>
+
+</div>
+<div class="btm">
+  <div class="btm_topbox">
+       <dl class="btm_dl">
+       		<dt>
+            <h1 class="title">按访问者</h1>
+            	
+            </dt>
+            <dd class="content">
+                	<a href="#" class="ppp">运营商</a>
+                	<p class="ppp">企业用户</p>
+                	<p class="ppp">最终消费者</p>
+                	<p class="ppp">合作伙伴</p>
+                	<p class="ppp">新闻媒体</p>
+                 	<p class="ppp">求职者</p>
+              </dd>
+       </dl> 
+       <dl>
+       		<dt>
+            <h1 class="title">行业洞察</h1>
+            	
+            </dt>
+            <dd class="content">
+                	<p class="ppp">客户声音</p>
+                	<p class="ppp">消费者研究</p>
+                	<p class="ppp">创新</p>
+                	<p class="ppp">热点技术</p>
+                	<p class="ppp">标准与行业贡献</p>
+            </dd>
+       </dl>
+       <dl>
+       		<dt>
+            <h1 class="title">关于华为</h1>
+            	
+            </dt>
+            <dd class="content">
+                	<p class="ppp">愿景与使命</p>
+                	<p class="ppp">公司战略</p>
+                	<p class="ppp">社会责任</p>
+                	<p class="ppp">公司治理</p>
+                	<p class="ppp">财务概要</p>
+               	 	<p class="ppp">发展历程</p>
+             </dd>
+       </dl>
+       <dl>
+       		<dt>
+            <h1 class="title">常用链接</h1>
+            	
+            </dt>
+            <dd class="content">
+                	<p class="ppp">新闻中心</p>
+                	<p class="ppp">展会活动</p>
+                	<p class="ppp">公司刊物</p>
+                	<p class="ppp">网络安全</p>
+                	<p class="ppp">成功故事</p>
+            </dd>
+       </dl>
+       <dl>
+       		<dt>
+            <h1 class="title">相关网站</h1>
+            	
+            </dt>
+            <dd class="content">
+                	<p class="ppp">华为运营商网络</p>
+                	<p class="ppp">华为企业业务</p>
+                	<p class="ppp">华为终端</p>
+                	<p class="ppp">华为海洋</p>
+                	<p class="ppp">手机华为网</p>
+            </dd>
+       </dl>
+       </div>
+  <div class="btm_btmcontent" >
+              <p ><a href="#">法律声明</a> | <a href="#">隐私保护</a> |<a href="#"> 联系我们</a> |<a href="#"> 网站地图</a> </p>       
+       <strong>版权所有&copy;华为技术有限公司 1998-2012。 保留一切权利。粤A2-20044005号</strong> 
+       </div>
+       <div class="chengxin">
+       <a href="#"><img src="img/chengxin.jpg" width="112" height="41" /></a>
+       </div>
+  
+</div>
+
+
+
+</body>
+</html>
